@@ -1,0 +1,11 @@
+clear
+echo "----- EVEN OR ODD IN SHELL SCRIPTS----"
+echo -n "Enter a number: "
+read t
+echo -n "RESULT:"
+if [ 'expr $t % 2' == 0]
+then
+echo "$t is even."
+else
+echo "$t is odd"
+fi
